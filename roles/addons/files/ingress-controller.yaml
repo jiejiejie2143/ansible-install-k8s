@@ -211,7 +211,7 @@ spec:
       serviceAccountName: nginx-ingress-serviceaccount
       containers:
         - name: nginx-ingress-controller
-          image: lizhenliang/nginx-ingress-controller:0.20.0 
+          image: registry.cn-hangzhou.aliyuncs.com/jie_yan/nginx-ingress-controller:0.20.0 
           args:
             - /nginx-ingress-controller
             - --configmap=$(POD_NAMESPACE)/nginx-configuration

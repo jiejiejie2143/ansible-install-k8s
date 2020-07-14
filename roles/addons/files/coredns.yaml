@@ -108,7 +108,7 @@ spec:
           operator: "Exists"
       containers:
       - name: coredns
-        image: lizhenliang/coredns:1.2.2
+        image: registry.cn-hangzhou.aliyuncs.com/jie_yan/coredns:1.2.2
         imagePullPolicy: IfNotPresent
         resources:
           limits:

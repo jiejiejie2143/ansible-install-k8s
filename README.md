@@ -65,9 +65,11 @@ cert_hosts:
 ## 3、一键部署
 ### 架构图
 单Master架构
-![avatar](https://github.com/lizhenliang/ansible-install-k8s/blob/master/single-master.jpg)
+![avatar](https://raw.githubusercontent.com/jiejiejie2143/ansible-install-k8s/master/single-master.jpg)
 多Master架构
-![avatar](https://github.com/lizhenliang/ansible-install-k8s/blob/master/multi-master.jpg)
+
+![avatar](https://raw.githubusercontent.com/jiejiejie2143/ansible-install-k8s/master/multi-master.jpg)
+
 ### 部署命令
 单Master版：（阿里云环境，先部署单master，再做slb的高可用）
 ```
