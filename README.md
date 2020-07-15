@@ -124,6 +124,10 @@ mode: ipvs
 ipvs:
   scheduler: "rr"
 ```
+修改了scheduler和controller manager配置文件，修改绑定地址为0.0.0.0，为了prometheus监控能拿到数据
+```
+--address=0.0.0.0
+```
 ### common初始化时增加
 ```
 - name: 修改内核参数，保证flannel和coredns网络正常，且调整ipvs模块的table full
