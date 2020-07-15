@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8169c63-2717-410c-8174-6bbc823d56fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ansible-install-k8s.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ansible-install-k8s-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/addons/files/coredns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/addons/files/coredns.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/addons/files/ingress-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/addons/files/ingress-controller.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/addons/files/kube-flannel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/addons/files/kube-flannel.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/node/templates/kubelet.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/node/templates/kubelet.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/master/templates/kube-controller-manager.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/master/templates/kube-controller-manager.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/master/templates/kube-scheduler.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/master/templates/kube-scheduler.conf.j2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +47,17 @@
       <option name="presentableId" value="Default" />
       <updated>1594690546235</updated>
       <workItem from="1594690548780" duration="16000" />
-      <workItem from="1594690572827" duration="4259000" />
+      <workItem from="1594690572827" duration="8288000" />
+      <workItem from="1594796283377" duration="53000" />
     </task>
+    <task id="LOCAL-00001" summary="更换lizhengliang的所有地址为yanjie自己的">
+      <created>1594703954443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594703954443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更换lizhengliang的所有地址为yanjie自己的" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换lizhengliang的所有地址为yanjie自己的" />
   </component>
 </project>
